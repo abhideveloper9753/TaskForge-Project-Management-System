@@ -1,13 +1,11 @@
-
-
-
 {
   "rewrites": [
     { "source": "/(.*)", "destination": "/api/index" }
   ],
   "functions": {
     "api/index.js": {
-      "includeFiles": "node_modules/.prisma/client/**"
+      "includeFiles": "node_modules/.prisma/client/**",
+      "excludeFiles": "{node_modules/.prisma/client/*windows*,node_modules/.prisma/client/*darwin*,node_modules/@prisma/engines/**}"
     }
   }
 }
