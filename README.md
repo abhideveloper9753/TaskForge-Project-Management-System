@@ -1,4 +1,4 @@
-# 🚀 Project Management System
+# 🚀 Project Management System (TaskForge)
 
 A modern and scalable **Project Management System** designed to help teams efficiently create, manage, track, and monitor multiple projects and tasks from a centralized dashboard.
 
